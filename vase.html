@@ -17,19 +17,19 @@
             }
           }
         </script>
-
-          <div class="topnav" id="myTopnav">
-            <a href="home.html">Sappho: Tell Everyone</a>
-            <a href="vase.html"  class="active">Explore Project</a>
-            <a href="about.html">About</a>
-            <a href="#contact">Program</a>
-            <a href="team.html">Project Team</a>
-            <a href="#donate">Donate</a>
-            <a href="#donate">Acknowledgements</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+         <div class="topnav" id="myTopnav">
+          <a href="index.html">Sappho: Tell Everyone</a>
+          <a href="vase.html">Explore Project</a>
+          <a href="about.html"  class="active">About</a>
+          <a href="program.html">Program</a>
+          <a href="team.html">Project Team</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+          <a href="acknowledgements.html">Acknowledgements</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+</div>
         <h1 class="heading" id="vase-heading">Explore Project</h1>
         <div class="wrapper">
           <div id="vase-container">
@@ -71,6 +71,7 @@
               }
     
               for (var i = 0; i < fragments.length; i++) {
+
                 if (fragments[i].classList.contains('h')){
                   fragments[i].addEventListener('mouseover', mouseOverEffectH);
                   fragments[i].addEventListener('mouseout', mouseOutEffectH);
@@ -96,12 +97,6 @@
                   fragments[i].addEventListener('mouseout', mouseOutEffectN);
                 }
               }
-              
-              function act1Clicked(){
-                this.classList.add("disable");
-                localStorage.setItem('btn2-enabled', true);
-             }
-          
 
               function mouseOverEffectH() {
                 this.classList.add("h-highlight");
@@ -147,7 +142,9 @@
               </script>
             </svg>
           </div>
-          <div class="vase-text">Experience the movements of the composition in any order you like by clicking on the individual fragments of the vase.
-            <br> <br>To experience the composition in full in its intended order, click here. </div>
+          <div class="text-wrapper">
+          <span class="vase-text">Experience the movements of the composition in any order you like by clicking on the individual fragments of the vase.</span>
+          <span class="vase-text">To experience the composition in full in its intended order, click here.</span>
+        </div>
     </body>
 </html>
