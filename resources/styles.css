@@ -80,12 +80,13 @@
     letter-spacing: .15em;
     color: #DDE392;
     font-weight: 700;
+    padding: .5em;
   }
 
   h2 {
     font-size: 1.75rem;
     color: white;
-    padding-bottom: 2.2857em;
+    padding-bottom: 1.14285em;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: .15em;
   }
