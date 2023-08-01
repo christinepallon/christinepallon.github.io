@@ -366,7 +366,7 @@ svg {
 }
 
 
-@media (min-width: 960px) {
+@media (min-width: 1025px) {
 
     .team-members {
         display: grid;
