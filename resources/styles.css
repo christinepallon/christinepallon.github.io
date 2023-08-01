@@ -237,14 +237,18 @@ svg {
   fill:#347686;
 }
 
+/* TEAM */
+
+#team-heading {
+  padding: 1.5em 1em 0em 1em;
+}
+
 #vase {
   width: 40em;
 }
 
 #team-body {
-  background: rgb(34,85,96);
-  background: linear-gradient(180deg, rgba(34,85,96,1) 0%, rgba(43,97,110,1) 42%, rgba(32,75,85,1) 100%);
-  padding-bottom: 2em;
+  background: linear-gradient(180deg, rgba(34,85,96,1) 0%, rgba(43,97,110,1) 42%, rgba(32,75,85,1) 100%) fixed;
   height: 100vh
 }
 
@@ -253,6 +257,8 @@ svg {
     flex-direction: column;
     align-items: center;
     margin-top: 1em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
 .card {
