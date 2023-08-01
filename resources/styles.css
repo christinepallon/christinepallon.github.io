@@ -352,6 +352,20 @@ svg {
   font-size: 3.5rem;
 }
 
+/* PROGRAM */
+
+#program-heading {
+  padding-bottom: 0;
+}
+
+iframe {
+  margin: auto;
+  display: block;
+  padding-bottom: 2em;
+  padding-top: 3em;
+  border: none;
+}
+
 
 @media (max-width: 834px) {
 
