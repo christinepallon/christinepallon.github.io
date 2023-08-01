@@ -241,12 +241,11 @@ svg {
   width: 40em;
 }
 
-/* TEAM */
-
 #team-body {
   background: rgb(34,85,96);
   background: linear-gradient(180deg, rgba(34,85,96,1) 0%, rgba(43,97,110,1) 42%, rgba(32,75,85,1) 100%);
   padding-bottom: 2em;
+  height: 100vh
 }
 
 .team-members {
@@ -271,7 +270,8 @@ svg {
 
 .profile-image {
     border-radius: 50%;
-    height: 15vh;
+    width: 15vh;
+    max-width: 12em;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
@@ -292,15 +292,15 @@ svg {
 }
 
 .name {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: normal;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.1em;
 }
 
 .title {
-    font-size: .9rem;
-    margin-top: .2em;
+  font-size: 1.2rem;
+  margin-top: .2em;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 0.05em;
 }
@@ -374,7 +374,15 @@ svg {
     }
 
     .heading {
-        font-size: 4rem;
+        font-size: 5rem;
+    }
+
+    .name {
+      font-size: 2rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
     }
 
     .danika .bio {
@@ -390,10 +398,16 @@ svg {
     }
 
 
-    .wrapper {
-      display: flex;
-      flex-direction: row-reverse;
-      padding-bottom: 2em;
+     .wrapper {
+    display: grid;
+    column-gap: 5em;
+    grid-template-columns: 35em 35em;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: row;
+    height: 100%;
+    margin-bottom: 2em;
     }
 
     .vase-text {
