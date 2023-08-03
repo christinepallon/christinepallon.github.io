@@ -243,10 +243,6 @@ svg {
   padding: 1.5em 1em 0em 1em;
 }
 
-#vase {
-  width: 40em;
-}
-
 #team-body {
   background: linear-gradient(180deg, rgba(34,85,96,1) 0%, rgba(43,97,110,1) 42%, rgba(32,75,85,1) 100%) fixed;
   height: 100vh
@@ -256,9 +252,8 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1em;
-    padding-bottom: 5em;
-    padding-top: 5em;
+    margin-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
 .card {
@@ -313,8 +308,8 @@ svg {
     
 
 .bio {
-    font-size: .9rem;
-    line-height: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
     display: flex;
     flex-direction:column;
 }
@@ -406,15 +401,15 @@ iframe {
     }
 
     .danika .bio {
-      margin-bottom: 3.666em;
+      margin-bottom: 3.442em;
     }
 
     .martine .bio {
-      margin-bottom: 1.3335em;
+      margin-bottom: 10.6645em;
     }
 
     .christine .bio {
-      margin-bottom: 1em;
+      margin-bottom: .9908em;
     }
 
 
