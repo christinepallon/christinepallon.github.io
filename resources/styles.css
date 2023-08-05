@@ -139,7 +139,6 @@
 /* VASE */
 
 .wrapper {
-  padding-top: 2em;
   display: flex;
   flex-direction: column;
 }
@@ -170,7 +169,6 @@
 }
 
 #vase-container {
-  padding-bottom: 2em;
   display: flex;
   width: 100%;
   justify-content: center;
