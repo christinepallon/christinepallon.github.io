@@ -175,8 +175,9 @@
   align-items: center;
 }
 
-svg {
-  pointer-events: all;
+#vase {
+  width: 90em;
+  height: 20em;
 }
 
 .g{
@@ -429,6 +430,11 @@ iframe {
 
     .vase-container {
       width: 50%;
+    }
+
+    #vase {
+      width: auto;
+      height: auto;
     }
 
     #vase-heading {
