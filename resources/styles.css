@@ -359,6 +359,11 @@ iframe {
   border: none;
 }
 
+/* Contact */
+
+#contact-body {
+  background-color:rgba(34,85,96,1);
+}
 
 @media (max-width: 834px) {
 
