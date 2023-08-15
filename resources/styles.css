@@ -16,7 +16,7 @@
 .heading {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 0.1em;
-  color: #DDE392;
+  color: #201108;
   font-weight: 700;
   text-align: center;
   padding: 1.5em 1em 1em 1em;
@@ -26,8 +26,7 @@
 /* NAVBAR AND FOOTER */
 
 .topnav {
-  background: rgb(221, 227, 146);
-  background: linear-gradient(180deg, rgba(221, 227, 146, 1) 0%, rgba(210, 215, 145, 0.9864146342130602) 35%, rgba(189, 194, 129, 1) 100%);
+  background: linear-gradient(180deg, rgba(143,49,45,1) 0%, rgba(167,58,54,1) 35%, rgba(163,58,53,1) 100%);
   overflow: hidden;
   border-radius: 0.3em;
   width: 100%
@@ -36,7 +35,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: #F2F2F2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,8 +55,7 @@
 }
 
 .topnav a.active {
-  background: rgb(147, 70, 83);
-  background: linear-gradient(180deg, rgba(147, 70, 83, 1) 0%, rgba(115, 56, 66, 1) 35%, rgba(92, 45, 53, 1) 100%);
+  background: radial-gradient(circle, rgba(96,42,40,1) 0%, rgba(114,50,48,1) 100%);
   color: white;
 }
 
@@ -68,7 +66,7 @@
 /* HOME */
 
 #showcase {
-  background: linear-gradient(180deg, rgba(34, 85, 96, 1) 0%, rgba(43, 97, 110, 1) 42%, rgba(32, 75, 85, 1) 100%);
+  background: linear-gradient(180deg, rgba(198,179,161,1) 0%, rgba(209,189,172,1) 35%, rgba(172,157,142,1) 100%) fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -80,14 +78,14 @@
 #showcase h1 {
   font-size: 3.3rem;
   letter-spacing: .15em;
-  color: #DDE392;
+  color: #201108;
   font-weight: 700;
   padding: .5em;
 }
 
 h2 {
   font-size: 1.75rem;
-  color: white;
+  color: #4E1818;
   padding-bottom: 1.14285em;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: .15em;
@@ -96,7 +94,7 @@ h2 {
 
 .button {
   border-radius: 0.25em;
-  background: rgb(147, 70, 83);
+  background: #be3f3c;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -145,7 +143,7 @@ h2 {
 }
 
 #vase-body {
-  background: black;
+  background: linear-gradient(180deg, rgba(198,179,161,1) 0%, rgba(209,189,172,1) 35%, rgba(172,157,142,1) 100%) fixed;
 }
 
 .text-wrapper {
@@ -160,13 +158,13 @@ h2 {
 }
 
 .vase-text {
-  color: white;
+  color: black;
   padding-bottom: .5em;
 }
 
 #vase-heading {
-  font-size: 3rem;
-  padding: .75em 1em 0em 1em;
+  font-size: 2.8rem;
+  padding: 1em 0em 0em 0em;
 }
 
 #vase-container {
@@ -206,9 +204,12 @@ h2 {
   fill: #231f20;
 }
 
-.n,
-.o {
+.n {
   fill: #4092a6;
+}
+
+.o {
+  fill: #6f5c50;
 }
 
 .h {
@@ -329,11 +330,11 @@ h2 {
 /* TEAM */
 
 #team-heading {
-  padding: 1.5em 1em 0em 1em;
+  padding: 1em 1em 0em 1em;
 }
 
 #team-body {
-  background: linear-gradient(180deg, rgba(34, 85, 96, 1) 0%, rgba(43, 97, 110, 1) 42%, rgba(32, 75, 85, 1) 100%) fixed;
+  background: linear-gradient(180deg, rgba(198,179,161,1) 0%, rgba(209,189,172,1) 35%, rgba(172,157,142,1) 100%) fixed;
   height: 100vh
 }
 
@@ -346,8 +347,7 @@ h2 {
 }
 
 .card {
-  background: rgb(117, 55, 66);
-  background: radial-gradient(circle, rgba(117, 55, 66, 1) 0%, rgba(123, 58, 69, 1) 21%, rgba(99, 47, 55, 1) 100%);
+  background: radial-gradient(circle, rgba(96,42,40,1) 0%, rgba(114,50,48,1) 100%);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   color: white;
@@ -419,8 +419,7 @@ h2 {
 #about {
   display: flex;
   flex-direction: column;
-  background: rgb(117, 55, 66);
-  background: radial-gradient(circle, rgba(117, 55, 66, 1) 0%, rgba(123, 58, 69, 1) 21%, rgba(99, 47, 55, 1) 100%);
+  background: radial-gradient(circle, rgba(115,35,33,1) 0%, rgba(140,23,40,1) 100%);
   color: white;
   border-radius: 0.4em;
   margin-bottom: 1em;
@@ -432,10 +431,9 @@ h2 {
 
 
 #about-heading {
-  color: #DDE392;
   font-weight: 700;
   text-align: center;
-  padding: 1.5em 0em .5em 0em;
+  padding: 1em 0em .5em 0em;
   font-size: 3.5rem;
 }
 
@@ -466,6 +464,7 @@ h2 {
 
 #program-heading {
   padding-bottom: 0;
+  padding-top: 1em;
 }
 
 iframe {
@@ -486,6 +485,7 @@ iframe {
 
 #acknowledgements-heading {
   font-size: 2rem;
+  padding-top: 1em;
 }
 
 @media (min-width: 1025px) {
