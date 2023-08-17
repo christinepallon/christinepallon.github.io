@@ -487,6 +487,7 @@ iframe {
   padding-top: 1em;
 }
 
+
 @media (min-width: 1025px) {
 
   .team-members {
@@ -512,16 +513,19 @@ iframe {
     font-size: 1.5rem;
   }
 
-  .danika .bio {
-    margin-bottom: 3.442em;
+  .danika,
+  .nicole {
+    height: 51.6958125em;
   }
 
-  .martine .bio {
-    margin-bottom: 10.6645em;
+  .martine,
+  .graces {
+    height: 51.07425em;
   }
 
-  .christine .bio {
-    margin-bottom: .9908em;
+  .gracei,
+  .christine {
+    height: 25.525375em;
   }
 
 
@@ -631,7 +635,7 @@ iframe {
 
   #vase-heading {
     font-size: 7rem;
-    padding-top:.5em;
+    padding-top: .5em;
   }
 
   .vase-text {
@@ -652,14 +656,6 @@ iframe {
     font-size: 6rem;
   }
 
-  .christine .bio {
-    margin-bottom: .9916em;
-  }
-
-  .danika .bio {
-    margin-bottom: .9em;
-  }
-
   .bio {
     font-size: 1.4rem;
   }
@@ -667,7 +663,7 @@ iframe {
   .name {
     font-size: 2.5rem;
   }
-  
+
   .title {
     font-size: 2rem;
   }
@@ -675,5 +671,21 @@ iframe {
   .team-members {
     margin-top: 3.5em;
     padding-bottom: 3.5em;
+    grid-template-columns: 50em 50em;
+  }
+
+  .danika,
+  .nicole {
+    height: 59.6958125em;
+  }
+
+  .martine,
+  .graces {
+    height: 61.07425em;
+  }
+
+  .gracei,
+  .christine {
+    height: 31.525375em;
   }
 }
