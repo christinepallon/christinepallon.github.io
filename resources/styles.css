@@ -23,6 +23,16 @@
   font-size: 3.5rem;
 }
 
+span a {
+  color: #DDDDEE;
+
+}
+
+
+span a:hover {
+  color: red;
+}
+
 /* NAVBAR AND FOOTER */
 
 .topnav {
@@ -250,6 +260,13 @@ h2 {
   padding-bottom: 0;
 }
 
+#about-heading {
+  font-weight: 700;
+  text-align: center;
+  padding: .5em 0em .3em 0em;
+  font-size: 5rem;
+}
+
 .fragment-container {
   display: flex;
   flex-direction: column;
@@ -420,7 +437,7 @@ h2 {
 #about {
   display: flex;
   flex-direction: column;
-  background: radial-gradient(circle, rgba(115, 35, 33, 1) 0%, rgba(140, 23, 40, 1) 100%);
+  background: radial-gradient(circle, rgba(96, 42, 40, 1) 0%, rgba(114, 50, 48, 1) 100%);
   color: white;
   border-radius: 0.4em;
   margin-bottom: 1em;
@@ -430,22 +447,19 @@ h2 {
   width: 75vw;
 }
 
-
-#about-heading {
-  font-weight: 700;
-  text-align: center;
-  padding: 1em 0em .5em 0em;
-  font-size: 3.5rem;
-}
-
-#about-subheading {
-  font-size: 2rem;
+#subheading {
+  font-size: 2.5rem;
   line-height: normal;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 0.1em;
   text-align: center;
   padding-bottom: .5em;
 }
+
+.about-p {
+  font-size: 1.05rem;
+}
+
 
 @media (max-width: 834px) {
 
@@ -531,6 +545,14 @@ iframe {
     padding-bottom: .3em;
   }
 
+  #subheading {
+    font-size: 5rem;
+  }
+
+  #about-heading {
+    font-size: 7rem;
+  }
+
   #image-container {
     display: flex;
     flex-direction: row;
@@ -542,8 +564,13 @@ iframe {
     padding-right: 1em;
   }
 
+
   .ack-p {
     font-size: 1.7rem;
+  }
+
+  .about-p {
+    font-size: 1.9rem;
   }
 
   #artsns {
@@ -739,5 +766,17 @@ iframe {
   .gracei,
   .christine {
     height: 31.525375em;
+  }
+
+  .about-p {
+    font-size: 2.1rem;
+  }
+
+  #subheading {
+    font-size: 7rem;
+  }
+
+  #about-heading {
+    font-size: 9rem;
   }
 }
