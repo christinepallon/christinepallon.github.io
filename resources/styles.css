@@ -485,8 +485,29 @@ iframe {
 #acknowledgements-heading {
   font-size: 2rem;
   padding-top: 1em;
+  padding-bottom: .5em;
 }
 
+.ack-p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#image-container {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#canadacouncil {
+  width: 95vw;
+  padding-bottom: 1em;
+}
+
+#artsns {
+  width: 45vw;
+}
 
 @media (min-width: 1025px) {
 
@@ -503,6 +524,30 @@ iframe {
 
   .heading {
     font-size: 5rem;
+  }
+
+  #acknowledgements-heading {
+    font-size: 5rem;
+    padding-bottom: .3em;
+  }
+
+  #image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #canadacouncil {
+    width: 45vw;
+    padding-bottom: 0;
+    padding-right: 1em;
+  }
+
+  .ack-p {
+    font-size: 1.7rem;
+  }
+
+  #artsns {
+    width: 15vw;
   }
 
   .name {
@@ -653,6 +698,10 @@ iframe {
   }
 
   #team-heading {
+    font-size: 6rem;
+  }
+
+  #acknowledgements-heading {
     font-size: 6rem;
   }
 
