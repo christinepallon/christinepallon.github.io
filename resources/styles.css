@@ -267,15 +267,6 @@ h2 {
   font-size: 5rem;
 }
 
-#about-subheading {
-  font-size: 2rem;
-  line-height: normal;
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 0.1em;
-  text-align: center;
-  padding-bottom: .5em;
-}
-
 .fragment-container {
   display: flex;
   flex-direction: column;
@@ -286,6 +277,15 @@ h2 {
 #fragment-button {
   font-size: 2rem;
   width: auto;
+}
+
+#about-subheading {
+  font-size: 2rem;
+  line-height: normal;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: .5em;
 }
 
 .libretto {
@@ -643,11 +643,11 @@ iframe {
 
   #showcase h1 {
     padding-top: .7em;
-    font-size: 6em;
+    font-size: 7rem;
   }
 
   #showcase h2 {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
 }
@@ -786,6 +786,10 @@ iframe {
   }
 
   #about-heading {
+    font-size: 9rem;
+  }
+
+  #showcase h1 {
     font-size: 9rem;
   }
 }
