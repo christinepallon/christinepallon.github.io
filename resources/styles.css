@@ -267,6 +267,15 @@ h2 {
   font-size: 5rem;
 }
 
+#about-subheading {
+  font-size: 2rem;
+  line-height: normal;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
 .fragment-container {
   display: flex;
   flex-direction: column;
