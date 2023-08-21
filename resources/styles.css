@@ -692,6 +692,9 @@ iframe {
     grid-template-columns: 45em 45em;
   }
 
+  .ack-p {
+    font-size: 3rem;
+  }
 
   .team-members {
     grid-template-columns: 50em 50em;
