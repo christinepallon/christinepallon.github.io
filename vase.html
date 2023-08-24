@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="vase-body">
+<main id="vase-body">
   <script>function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -19,7 +19,7 @@
       }
     }
   </script>
-  <div class="topnav" id="myTopnav">
+  <nav class="topnav" id="myTopnav">
     <a href="index.html">The Sappho Project</a>
     <a href="vase.html" class="active">Explore Project</a>
     <a href="about.html">About</a>
@@ -30,12 +30,14 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div>
+  </nav>
   <h1 class="heading" id="vase-heading">Tell Everyone</h1>
   <h1 class="heading" id="vase-heading-2">Composed by Danika Lorèn</h1>
   <div class="wrapper">
+    <p class="visually_hidden" id="uniqueDescID">A shattered vase that has been reconstructed using its fragments. Each
+      fragment of the vase is labelled with a different letter of the greek alphabet. </p>
     <div id="vase-container">
-      <svg id="vase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.64 346.6">
+      <svg id="vase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.64 346.6"  aria-labelledby="uniqueDescID">
         <path class="o"
           d="m46.2,158.74c0-12.73,3.11-21.41,9.05-27-16.31-16.6-30.81-81.12-30.77-89.4.05-11.31,6.05-13.51,13.51-13.51,9.12-.17,15.87,9.39,12.77,17.92l.06.77c-5.24-1.03-11.41,1.9-11.31,8.78-.11,7.49,7.2,10.3,12.66,8.43v.03s.07-.05.1-.07c1.74-.62,3.27-1.72,4.31-3.29,16.06-15.15,5.65-46.06-18.6-45.58-14.65,0-26.53,5.31-26.53,26.53s16.77,83.24,34.93,121.47c-.12-1.7-.19-3.4-.19-5.08Z" />
         <path class="o"
@@ -223,6 +225,6 @@
       <span class="vase-text">To view the world premiere presentation of <em>Tell Everyone</em> in its
         entirety, click here.</span>
     </div>
-</body>
+</main>
 
 </html>
