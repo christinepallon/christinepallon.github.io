@@ -175,8 +175,13 @@ h2 {
 }
 
 #vase-heading {
-  font-size: 2.8rem;
-  padding: 1em 0em 0em 0em;
+  font-size: 2rem;
+  padding: .5em 0em 0em 0em;
+}
+
+#vase-heading-2 {
+  font-size: 1.8rem;
+  padding: .5em 0em 0em 0em;
 }
 
 #vase-container {
@@ -640,6 +645,10 @@ iframe {
     padding-top: 1em;
   }
 
+  #vase-heading-2 {
+    font-size: 3em;
+  }
+
 
   #showcase h1 {
     padding-top: .7em;
@@ -717,6 +726,10 @@ iframe {
   #vase-heading {
     font-size: 7rem;
     padding-top: .5em;
+  }
+
+  #vase-heading-2 {
+    font-size: 5rem;
   }
 
   .vase-text {
