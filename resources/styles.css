@@ -634,7 +634,7 @@ iframe {
     justify-content: center;
     align-content: center;
     grid-auto-flow: row;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
   }
 
   .vase-text {
