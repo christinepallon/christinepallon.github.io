@@ -33,15 +33,15 @@ span a:hover {
   color: red;
 }
 
-.visually_hidden { 
-  border: 0; 
-  clip: rect(0 0 0 0); 
-  height: 1px; 
-  margin: -1px; 
-  overflow: hidden; 
-  padding: 0; 
-  position: absolute; 
-  width: 1px; 
+.visually_hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /* NAVBAR AND FOOTER */
@@ -505,6 +505,11 @@ h2 {
   padding-top: 1em;
 }
 
+#program {
+  width: 90%;
+  height: 1060vh;
+}
+
 iframe {
   margin: auto;
   display: block;
@@ -634,7 +639,7 @@ iframe {
     justify-content: center;
     align-content: center;
     grid-auto-flow: row;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
   }
 
   .vase-text {
@@ -815,5 +820,14 @@ iframe {
 
   #showcase h1 {
     font-size: 9rem;
+  }
+
+  #program {
+    width: 50%;
+    height: 1060vh;
+  }
+
+  #program-heading {
+    font-size: 6rem;
   }
 }
