@@ -186,12 +186,12 @@ h2 {
 }
 
 #vase-heading {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: .5em 0em 0em 0em;
 }
 
 #vase-heading-2 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   padding: .5em 0em 0em 0em;
 }
 
@@ -553,6 +553,72 @@ iframe {
   width: 45vw;
 }
 
+@media (min-width: 1024px) {
+  #vase-heading {
+    font-size: 7rem;
+    padding-top: .5em;
+  }
+
+  #vase-heading-2 {
+    font-size: 5rem;
+  }
+
+  #vase {
+    height: 40em;
+  }
+
+  .vase-text {
+    font-size: 1.8em;
+  }
+
+  .libretto {
+    font-size: 2rem;
+  }
+
+  #fragment-button {
+    margin: auto;
+    font-size: 2.8rem;
+  }
+
+  .libretto #about-subheading {
+    font-size: 4rem;
+  }
+
+  #acknowledgements-heading {
+    font-size: 5rem;
+    padding-bottom: .3em;
+  }
+
+  .ack-p {
+    font-size: 1.9rem;
+  }
+
+  .about-p {
+    font-size: 1.9rem;
+  }
+
+  #about-heading {
+    font-size: 7rem;
+  }
+
+  #program-heading {
+    font-size: 6rem;
+  }
+
+  #team-heading {
+    font-size: 4rem;
+  }
+
+  #showcase h1 {
+    padding-top: .7em;
+    font-size: 7rem;
+  }
+
+  #showcase h2 {
+    font-size: 4rem;
+  }
+}
+
 @media (min-width: 1025px) {
 
   .team-members {
@@ -570,17 +636,8 @@ iframe {
     font-size: 5rem;
   }
 
-  #acknowledgements-heading {
-    font-size: 5rem;
-    padding-bottom: .3em;
-  }
-
   #subheading {
     font-size: 5rem;
-  }
-
-  #about-heading {
-    font-size: 7rem;
   }
 
   #image-container {
@@ -592,15 +649,6 @@ iframe {
     width: 45vw;
     padding-bottom: 0;
     padding-right: 1em;
-  }
-
-
-  .ack-p {
-    font-size: 1.7rem;
-  }
-
-  .about-p {
-    font-size: 1.9rem;
   }
 
   #artsns {
@@ -656,45 +704,15 @@ iframe {
     height: auto;
   }
 
-  #vase-heading {
-    font-size: 5em;
-    padding-top: 1em;
-  }
-
-  #vase-heading-2 {
-    font-size: 3em;
-  }
-
-
-  #showcase h1 {
-    padding-top: .7em;
-    font-size: 7rem;
-  }
-
-  #showcase h2 {
-    font-size: 4rem;
-  }
-
-}
-
-@media (min-width: 1024px) {
   .fragment-video {
     width: 70%;
     height: 70%;
-  }
-
-  #fragment-button {
-    margin: auto;
-  }
-
-  .libretto {
-    font-size: 1.2rem;
   }
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1250px) {
   .topnav.responsive {
     position: relative;
   }
@@ -727,9 +745,6 @@ iframe {
 }
 
 @media (min-width: 1800px) {
-  .libretto #about-subheading {
-    font-size: 4rem;
-  }
 
   .libretto {
     font-size: 2rem;
@@ -737,15 +752,6 @@ iframe {
 
   #fragment-button {
     font-size: 3.5rem;
-  }
-
-  #vase-heading {
-    font-size: 7rem;
-    padding-top: .5em;
-  }
-
-  #vase-heading-2 {
-    font-size: 5rem;
   }
 
   .vase-text {
