@@ -554,6 +554,17 @@ iframe {
 }
 
 @media (min-width: 1024px) {
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+
+
   #vase-heading {
     font-size: 7rem;
     padding-top: .5em;
@@ -606,7 +617,11 @@ iframe {
   }
 
   #team-heading {
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+
+  .profile-image {
+    width: 13vh;
   }
 
   #showcase h1 {
