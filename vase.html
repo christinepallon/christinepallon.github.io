@@ -38,6 +38,10 @@ toggle between hiding and showing the dropdown content */
         }
       }
     }
+    function setPadding(){ 
+      var element = document.getElementById("dropdown");
+  element.classList.toggle("padded-dropdown");
+      }
   </script>
   <nav class="topnav" id="myTopnav">
     <a href="index.html">Sappho: Tell Everyone</a>
@@ -248,11 +252,11 @@ toggle between hiding and showing the dropdown content */
         Lapointe.</span>
     </div>
   </div>
-  <div class="dropdown">
-    <button onclick="myFunction2()" class="dropbtn">Movements</button>
+  <div class="dropdown" id="dropdown">
+    <button onclick="myFunction2();setPadding()" class="dropbtn">Movements</button>
     <div id="myDropdown" class="dropdown-content">
       <a href="remember.html">&alpha; - I. Remember</a>
-      <a href="#">Link 2</a>
+      <a href="lyre.html">&beta; - II. Lyre</a>
       <a href="#">Link 3</a>
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
