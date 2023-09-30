@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=PT+Sans&display=swap');
+8@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
@@ -555,7 +555,7 @@ iframe {
 @media (min-width: 800px) {
 
 .fragment-video {
-    height: 30vh;
+    height: 40vh;
   
   .name {
     font-size: 2.5rem;
