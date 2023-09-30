@@ -554,6 +554,9 @@ iframe {
 
 @media (min-width: 800px) {
 
+.fragment-video {
+    height: 30vh;
+  
   .name {
     font-size: 2.5rem;
   }
