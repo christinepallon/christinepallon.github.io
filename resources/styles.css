@@ -915,6 +915,7 @@ iframe {
   left: 50%;
   transform: translateX(-50%);
   padding-bottom: 15em;
+  padding-top: 1em;
 }
 
 /* Dropdown Content (Hidden by Default) */
