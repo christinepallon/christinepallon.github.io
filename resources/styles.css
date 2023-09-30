@@ -890,7 +890,6 @@ iframe {
     font-size: 6rem;
   }
 }
-
 /* Dropdown Button */
 .dropbtn {
   border-top-left-radius: 0.25em;
@@ -914,8 +913,8 @@ iframe {
   display: inline-block;
   left: 50%;
   transform: translateX(-50%);
-  padding-bottom: 16em;
   padding-top: 1em;
+  padding-bottom: 2rem;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -934,7 +933,7 @@ iframe {
   padding: 2px 6px;
   text-decoration: none;
   display: block;
-  font-size: .8rem;
+  font-size: 1.2rem;
 }
 
 /* Change color of dropdown links on hover */
@@ -942,3 +941,7 @@ iframe {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.padded-dropdown {
+  padding-bottom: 23em;
+}
