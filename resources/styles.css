@@ -565,8 +565,24 @@ iframe {
     font-size: 1rem;
   }
 
-}
+  #vase-heading {
+    font-size: 7rem;
+    padding-top: .5em;
+  }
 
+  #vase-heading-2 {
+    font-size: 5rem;
+  }
+
+  #vase {
+    height: 40em;
+  }
+
+  .vase-text {
+    font-size: 1.8em;
+  }
+
+}
 
 @media (min-width: 1024px) {
 
