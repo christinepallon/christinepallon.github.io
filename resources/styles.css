@@ -193,7 +193,6 @@ h2 {
 }
 
 #vase-container {
-  padding-bottom: 2em;
   display: flex;
   height: 100%;
   justify-content: center;
@@ -738,7 +737,6 @@ iframe {
     justify-content: center;
     align-content: center;
     grid-auto-flow: row;
-    margin-bottom: 2em;
   }
 
   .vase-text {
