@@ -60,7 +60,7 @@ span a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-right: 1px black solid;
   letter-spacing: 0.1em;
 }
@@ -763,7 +763,7 @@ iframe {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
   .topnav.responsive {
     position: relative;
   }
