@@ -552,12 +552,8 @@ iframe {
   width: 45vw;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
 
-.fragment-video {
-    height: 40vh;
-}
-  
   .name {
     font-size: 2.5rem;
   }
@@ -649,7 +645,7 @@ iframe {
     align-content: center;
     grid-auto-flow: row;
   }
-
+  
   .heading {
     font-size: 5rem;
   }
