@@ -117,7 +117,7 @@ h2 {
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: .5em;
   width: 5em;
   transition: all 0.5s;
@@ -490,7 +490,7 @@ h2 {
   }
 
   #showcase h1 {
-    padding-top: .5em;
+    padding: .5em;
   }
 
 }
@@ -640,16 +640,21 @@ iframe {
   }
 
   #showcase h1 {
-    padding-top: .7em;
-    font-size: 7rem;
+    padding: .5em;
+    font-size: 6rem;
   }
 
   #showcase h2 {
-    font-size: 4rem;
+    font-size: 5rem;
+    padding-bottom: .5em;
   }
 
   .fragment-video {
-    height: 80vh;
+    height: 60vh;
+  }
+
+  .button {
+    font-size: 3rem;
   }
 }
 
