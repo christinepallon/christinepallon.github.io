@@ -163,7 +163,7 @@ h2 {
 
 #vase-body {
   background: linear-gradient(180deg, rgba(198, 179, 161, 1) 0%, rgba(209, 189, 172, 1) 35%, rgba(172, 157, 142, 1) 100%) fixed;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .text-wrapper {
