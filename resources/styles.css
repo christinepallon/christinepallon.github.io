@@ -549,6 +549,12 @@ iframe {
   width: 45vw;
 }
 
+@media (max-width: 350px) {
+
+  .topnav a {
+    font-size: 1rem;
+  }
+}
 
 @media (min-width: 768px) {
 
