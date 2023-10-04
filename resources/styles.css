@@ -677,6 +677,10 @@ iframe {
 
 @media (min-width: 1025px) {
 
+  .text-wrapper {
+    padding-top: 2em;
+  }
+
   .team-members {
     display: grid;
     column-gap: 5em;
