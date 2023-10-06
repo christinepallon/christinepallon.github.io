@@ -761,12 +761,7 @@ iframe {
     padding-bottom: 0;
     height: 100%
   }
-
-  #vase {
-    width: auto;
-    height: auto;
-  }
-
+  
   .fragment-video {
     width: 80vw;
     height: 80vh;
